@@ -102,7 +102,7 @@ const Skills = () => {
             below are the Technologies and tools I use in problem solving,
             Providing smooth and unique UI to users.
           </h5>
-          <div className=" border-[3px] border-gray-700 p-5 rounded-lg align-center justify-center lg:w-[70vw] w-[60vw]">
+          <div className=" border-[3px] border-gray-700 p-5 rounded-lg align-center justify-center lg:w-[70vw] md:w-[70vw] w-[60vw]">
             <h5 className="text-[20px] pb-4">Frontend Languages and Tools:</h5>
 
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 text-center lg:gap-4 gap-3">
@@ -138,7 +138,7 @@ const Skills = () => {
             Projects
           </h2>
 
-          <div className="border-[3px] border-gray-700 p-5 rounded-lg grid items-center justify-items-center lg:w-[70vw] w-[60vw] ">
+          <div className="border-[3px] border-gray-700 p-5 rounded-lg grid items-center justify-items-center lg:w-[70vw] md:w-[70vw] w-[60vw] ">
             <div className="grid grid-cols-1 mt-0 md:grid-cols-1 lg:grid-cols-2 lg:grid-cols-2 gap-4">
               {projectData.map((pc, index) => (
                 <ProjectCards
