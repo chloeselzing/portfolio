@@ -4,12 +4,12 @@ import React, { useState } from "react";
 import { CiMenuBurger } from "react-icons/ci";
 import { IoClose } from "react-icons/io5";
 import Button from "./Button";
-// import Link from "./Link";
-// import CustomLink from "./CustomLink";
+import CustomLink from "./CustomLink";
+
 
 const NavLinks = [
-  { href: "#home", title: "HOME" },
-  { href: "#skills", title: "sKILLS" },
+  { href: "#", title: "HOME" },
+  { href: "#skills", title: "SKILLS" },
   { href: "#projects", title: "PROJECTS" },
 ];
 
@@ -97,7 +97,7 @@ const Header = () => {
         )}
       </nav>
 
-      <div className="hidden lg:block fixed top-20 left-0 right-0  mx-auto h-1 max-w-5xl bg-gradient-to-r from-white via-transparent to-transparent bg-opacity-80"></div>
+      <div className="hidden lg:block fixed top-20 left-0 right-0  mx-auto h-[1px] max-w-5xl bg-gradient-to-r from-white via-transparent to-transparent bg-opacity-80"></div>
     </header>
   );
 };
