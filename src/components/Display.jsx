@@ -16,7 +16,7 @@ const Display = () => {
   };
 
   return (
-    <section className="lg:p-16 p-auto py-[20px] flex justify-between ">
+    <section className="lg:p-16 p-auto py-[20px] flex justify-between " id="home">
       <div className="container flex flex-col md:flex-row px-6 mx-auto space-y-0 md:space-y-0 p-auto">
         <div className="flex-col mb-3 space-y-9 lg:space-y-12 md:w-1/2 md:my pt-20  md:pt-0 ">
           <motion.p className="greetings text-xl text-white md:text-2xl"
