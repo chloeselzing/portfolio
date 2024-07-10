@@ -16,9 +16,9 @@ const Display = () => {
   };
 
   return (
-    <section className="p-16 flex justify-between ">
-      <div className="container flex flex-col md:flex-row px-6 mx-auto space-y-0 md:space-y-0">
-        <div className="flex-col mb-3 space-y-9 lg:space-y-12 md:w-1/2 md:my pt-20 md:pt-0 ">
+    <section className="lg:p-16 p-auto py-[20px] flex justify-between ">
+      <div className="container flex flex-col md:flex-row px-6 mx-auto space-y-0 md:space-y-0 p-auto">
+        <div className="flex-col mb-3 space-y-9 lg:space-y-12 md:w-1/2 md:my pt-20  md:pt-0 ">
           <motion.p className="greetings text-xl text-white md:text-2xl"
           initial={{ opacity: 0, y: -50 }} 
           animate={{ opacity: 1, y: 0 }}   
@@ -28,7 +28,7 @@ const Display = () => {
             Yo! <span className="peace">✌️</span>, Meet
             <span className="text-zinc-500 name"> Selzing-Musa Chloe</span>
           </motion.p>
-          <h2 className="max-w-md lg:text-5xl text-3xl font-bold text-left md:text-5xl lg:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500">
+          <h2 className="max-w-md lg:text-5xl text-3xl  font-bold lg:text-left md:text-5xl lg:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500">
             a Software Developer;
           </h2>
           <p className="max-w-sm text-left text-gray-200">
@@ -36,11 +36,11 @@ const Display = () => {
             focus? Transforming problems into elegant solutions through stunning
             UIs.
           </p>
-          <div className=" flex flex-row space-x-4 ">
+          <div className=" flex flex-row gap-4  ">
             <Button
               href="https://github.com/chloeselzing"
               text="Git Hub"
-              gradientFrom="from-purple-500 "
+              gradientFrom="from-purple-500"
               color="white"
               gradientTo="to-pink-500"
             >
