@@ -14,6 +14,7 @@ import { IoLogoJavascript } from "react-icons/io";
 import { BiLogoTailwindCss } from "react-icons/bi";
 import { motion, useInView } from "framer-motion";
 import ProjectCards from "./ProjectCards";
+import Projects from "./Projects";
 
 const frontendData = [
   { title: "HTML5", icon: <FaHtml5 /> },
@@ -24,32 +25,6 @@ const frontendData = [
   { title: "Bootstrap", icon: <FaBootstrap /> },
   { title: "Figma", icon: <FaFigma /> },
   { title: "Next.js" },
-];
-const projectData = [
-  {
-    title: "Neighbourhood",
-    description:
-      "Experience a new wave of social mediaring, develop your own hood, become a neighborhood hero, and many more activities.",
-    stacks: "Stacks : React.JS, Tailwind, TypeScript, Appwrite.",
-    githubLink: "#",
-    liveLink: "#",
-  },
-  {
-    title: "Neighbourhood",
-    description:
-      "Experience a new wave of social mediaring, develop your own hood, become a neighborhood hero, and many more activities.",
-    stacks: "Stacks : React.JS, Tailwind, TypeScript, Appwrite.",
-    githubLink: "#",
-    liveLink: "#",
-  },
-  {
-    title: "Neighbourhood",
-    description:
-      "Experience a new wave of social mediaring, develop your own hood, become a neighborhood hero, and many more activities.",
-    stacks: "Stacks : React.JS, Tailwind, TypeScript, Appwrite.",
-    githubLink: "#",
-    liveLink: "#",
-  },
 ];
 
 const versionControlData = [
@@ -79,7 +54,7 @@ const Skills = () => {
   });
 
   return (
-    <section className="grid min-h-screen bg-pink-200 lg:p-16 p-2 md:px-20 text-black ">
+    <section className="grid min-h-screen bg-pink-200 lg:p-16 p-2 md:px-20 text-black "  id="skills">
       <div className="mx-auto">
         <div className="max-w-screen-lg w-[70vw]">
           <h2 className="lg:text-3xl text-xl text-black font-bold mb-2">
@@ -134,31 +109,8 @@ const Skills = () => {
             below are the projects I’ve worked on to provide unique and
             flabagasting interfaces to users.
           </h5>
-          <h2 className="lg:text-3xl text-xl text-black font-bold mb-2">
-            Projects
-          </h2>
+          <Projects/>
 
-          <div className="border-[3px] border-gray-700 p-5 rounded-lg grid items-center justify-items-center lg:w-[70vw] md:w-[60vw] w-[80vw] ">
-            <div className="grid grid-cols-1 mt-0 md:grid-cols-1 lg:grid-cols-2 lg:grid-cols-2 gap-4">
-              {projectData.map((pc, index) => (
-                <ProjectCards
-                  key={index}
-                  title={pc.title}
-                  description={pc.description}
-                  stacks={pc.stacks}
-                  githubLink={pc.githubLink}
-                  liveLink={pc.liveLink}
-                />
-              ))}
-              <ProjectCards
-                title="Neighbourhood"
-                description="Experience a new wave of social mediaring, develop your own hood, become a neighborhood hero, and many more activities."
-                stacks="Stacks : React.JS, Tailwind, TypeScript, Appwrite."
-                githubLink="#"
-                liveLink
-              />
-            </div>
-          </div>
         </div>
       </div>
     </section>

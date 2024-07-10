@@ -1,4 +1,15 @@
 import React from "react";
+import CustomLink from "./CustomLink";
+const FooterLinks = [
+  { href: "#", title: "Home" },
+  { href: "mailto:selzingmusa1@gmail.com", title: "Contact" },
+  { href: "/resume.pdf", title: "Resume", target: "_blank" },
+  {
+    href: "https://github.com/chloeselzing",
+    title: "GitHub",
+    target: "_blank",
+  },
+];
 
 const Footer = () => {
   return (
@@ -12,26 +23,14 @@ const Footer = () => {
           . All Rights Reserved.
         </span>
         <ul className="flex flex-wrap gap-4 items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
-          <li>
-            <a href="#About" className="desk-nav">
-              About
-            </a>
-          </li>
-          <li>
-            <a href="mailto:selzingmusa1@gmail.com" className="desk-nav">
-              Contact
-            </a>
-          </li>
-          <li>
-            <a href="/../resume.pdf" className="desk-nav">
-              Resume
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/chloeselzing" className="desk-nav">
-              GitHub
-            </a>
-          </li>
+          {FooterLinks.map((nav, index) => (
+            <CustomLink
+              key={index}
+              href={nav.href}
+              title={nav.title}
+              className="desk-nav"
+            />
+          ))}
         </ul>
       </div>
     </footer>

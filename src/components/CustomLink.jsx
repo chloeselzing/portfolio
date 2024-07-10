@@ -1,17 +1,12 @@
 import React from "react";
+import Link from 'next/link';
 
-const CustomLink = ({ href, title }) => {
-  const handleClick = () => {
-    const element = document.getElementById(href.substring(1)); 
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" }); 
-    }
-  };
 
+const CustomLink = ({ href, title,className,target }) => {
   return (
-    <button className="nav2-link active mb-2" onClick={handleClick}>
+    <Link href={href} className={className} target={target}  >
       {title}
-    </button>
+    </Link>
   );
 };
 
