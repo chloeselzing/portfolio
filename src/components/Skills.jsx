@@ -95,7 +95,7 @@ const Skills = () => {
               animate={inView ? "hidden" : "visible"}
             >
               Skills Over my years of experience in web and software
-              development&nbsp;
+              development
             </motion.span>
             below are the Technologies and tools I use in problem solving,
             Providing smooth and unique UI to users.
@@ -126,7 +126,7 @@ const Skills = () => {
               initial="hidden"
               animate={inView ? "hidden" : "visible"}
             >
-              Making use of the above technologies and tools&nbsp;
+              Making use of the above technologies and tools
             </motion.span>
             below are the projects I’ve worked on to provide unique and
             flabagasting interfaces to users.

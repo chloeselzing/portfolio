@@ -4,12 +4,12 @@ import React, { useState } from "react";
 import { CiMenuBurger } from "react-icons/ci";
 import { IoClose } from "react-icons/io5";
 import Button from "./Button";
-// import Link from "./Link";
-// import CustomLink from "./CustomLink";
+import CustomLink from "./CustomLink";
+
 
 const NavLinks = [
-  { href: "#home", title: "HOME" },
-  { href: "#skills", title: "sKILLS" },
+  { href: "#", title: "HOME" },
+  { href: "#skills", title: "SKILLS" },
   { href: "#projects", title: "PROJECTS" },
 ];
 
