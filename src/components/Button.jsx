@@ -21,7 +21,7 @@ const Button = ({
 
   return (
     <button
-      className={` bg-gradient-to-r ${gradientFrom} ${gradientTo} custom-button text-${color}  font-bold lg:py-2 lg:px-4 py-1 px-1 min-w-[100px] rounded flex flex-col-2 ${
+      className={` bg-gradient-to-r ${gradientFrom} ${gradientTo} custom-button text-${color}  font-bold lg:py-2 lg:px-4 py-1 px-[20px] min-w-[100px]  min-h-[20px]   rounded flex flex-col-2 ${
         isClicked ? "button-click-animation" : ""
       }`}
       onClick={handleClick}

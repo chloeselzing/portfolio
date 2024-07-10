@@ -9,7 +9,7 @@ const ProjectCards = ({ title, description, stacks, githubLink, liveLink }) => {
     <div className="bg-[#070a0e] border border-gray-500 rounded-md p-4 text-white text-left  w-[55vw] md:w-[45vw] lg:w-[30vw] h-auto lg:h-[50vh] ">
       <div className="py-1 space-y-0 flex flex-row justify-between items-center px-2 md:px-4">
         <div>
-          <span className="text-[20px] md:text-[24px]">{title}</span>
+          <span className="text-[15px] md:text-[20px] md:text-[24px]">{title}</span>
         </div>
         <div className="flex space-x-2">
           <a href={githubLink} target="_blank" rel="noopener noreferrer">
