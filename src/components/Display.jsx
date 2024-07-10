@@ -8,8 +8,6 @@ import { LuDownload } from "react-icons/lu";
 import { IoLogoGithub } from "react-icons/io";
 import { motion } from "framer-motion";
 
-
-
 const Display = () => {
   const handleResumeClick = () => {
     window.open("/resume.pdf", "_blank");
@@ -19,12 +17,14 @@ const Display = () => {
     <section className="p-16 flex justify-between ">
       <div className="container flex flex-col md:flex-row px-6 mx-auto space-y-0 md:space-y-0">
         <div className="flex-col mb-3 space-y-9 lg:space-y-12 md:w-1/2 md:my pt-20 md:pt-0 ">
-          <motion.p className="greetings text-xl text-white md:text-2xl"
-          initial={{ opacity: 0, y: -50 }} 
-          animate={{ opacity: 1, y: 0 }}   
-          transition={{ duration: 0.5 }}   
-          whileHover={{ scale: 1.1 }}      
-          whileTap={{ scale: 0.9 }}  >
+          <motion.p
+            className="greetings text-xl text-white md:text-2xl"
+            initial={{ opacity: 0, y: -50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+          >
             Yo! <span className="peace">✌️</span>, Meet
             <span className="text-zinc-500 name"> Selzing-Musa Chloe</span>
           </motion.p>
@@ -54,7 +54,6 @@ const Display = () => {
               gradientFrom="from-pink-500"
               gradientTo="to-purple-500"
               color="white"
-
             >
               <LuDownload />
             </Button>

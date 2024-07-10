@@ -6,7 +6,6 @@ import { IoClose } from "react-icons/io5";
 import Button from "./Button";
 import CustomLink from "./CustomLink";
 
-
 const NavLinks = [
   { href: "#", title: "HOME" },
   { href: "#skills", title: "SKILLS" },
