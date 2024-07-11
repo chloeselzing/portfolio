@@ -30,7 +30,7 @@ const Header = () => {
   };
   return (
     <header className="relative transition-all z-[50] px-16 mx-auto lg:mb-[50px] md:mb-[50px] ">
-      <nav className="fixed top-0 bg-black left-0 lg:opacity-1 bg-opacity-0 container p-6 mx-auto text-white flex items-center justify-between lg:px-[5vw] lg:bg-black">
+      <nav className="fixed top-0 bg-black left-0 right-0 lg:opacity-1 bg-opacity-0 container p-6 mx-auto text-white flex items-center justify-between lg:px-[5vw] lg:bg-black">
         <div className="logo">
           <h1 className="text-2xl font-medium">
             <span className="text-zinc-500">SEL</span>ZING
