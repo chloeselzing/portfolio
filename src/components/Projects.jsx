@@ -2,28 +2,36 @@ import React from "react";
 import ProjectCards from "./ProjectCards";
 const projectData = [
   {
-    title: "Neighbourhood",
+    title: "Weather Whiz",
     description:
-      "Experience a new wave of social mediaring, develop your own hood, become a neighborhood hero, and many more activities.",
-    stacks: "Stacks : React.JS, Tailwind, TypeScript, Appwrite.",
-    githubLink: "#",
-    liveLink: "#",
+      "Weather Whiz is a web-based weather forecast app that allows users to enter a location and receive real-time weather information.I built a weather forecast site.",
+    stacks: "Stacks : Next.JS, Tailwind",
+    githubLink: "https://github.com/chloeselzing/Weather.git",
+    liveLink: "https://weather-delta-blue.vercel.app/",
   },
   {
-    title: "Neighbourhood",
+    title: "Portfolio",
     description:
-      "Experience a new wave of social mediaring, develop your own hood, become a neighborhood hero, and many more activities.",
-    stacks: "Stacks : React.JS, Tailwind, TypeScript, Appwrite.",
-    githubLink: "#",
-    liveLink: "#",
+      "A simple portfolio website showcasing my personal projects, skills, and experiences.",
+    stacks: "Stacks : Next.JS, Tailwind",
+    githubLink: "https://github.com/chloeselzing/portfolio.git",
+    liveLink: "https://portfolio-chloeselzings-projects.vercel.app/",
   },
   {
-    title: "Neighbourhood",
+    title: "Jankara Market",
     description:
-      "Experience a new wave of social mediaring, develop your own hood, become a neighborhood hero, and many more activities.",
+      "Jos Jankara Market is an online marketplace offering a wide range of products, including groceries, electronics, fashion, and more.",
     stacks: "Stacks : React.JS, Tailwind, TypeScript, Appwrite.",
-    githubLink: "#",
-    liveLink: "#",
+    githubLink: "https://github.com/chloeselzing/jankaramarket.git",
+    liveLink: "https://jankaramarket.vercel.app/",
+  },
+  {
+    title: "4ES Africa",
+    description:
+      "4E School Africa provides in-demand tech skills training to African youth through partnerships and real-world projects, aiming to create a digitally employed society.",
+    stacks: "Stacks : React.JS, Tailwind, TypeScript, Appwrite.",
+    githubLink: "https://github.com/chloeselzing/4esafrica.git",
+    liveLink: "https://4esafrica.vercel.app/",
   },
 ];
 
@@ -45,13 +53,6 @@ const Projects = () => {
               liveLink={pc.liveLink}
             />
           ))}
-          <ProjectCards
-            title="Neighbourhood"
-            description="Experience a new wave of social mediaring, develop your own hood, become a neighborhood hero, and many more activities."
-            stacks="Stacks : React.JS, Tailwind, TypeScript, Appwrite."
-            githubLink="#"
-            liveLink
-          />
         </div>
       </div>
     </section>

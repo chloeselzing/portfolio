@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import myImage from "../app/Typing.jpeg";
+import myImage from "../../public/Typing.jpeg"
 import Button from "./Button";
 import { LuDownload } from "react-icons/lu";
 import { IoLogoGithub } from "react-icons/io";
