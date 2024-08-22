@@ -2,7 +2,7 @@ import React from "react";
 import CustomLink from "./CustomLink";
 const FooterLinks = [
   { href: "#", title: "Home" },
-  { href: "mailto:selzingmusa1@gmail.com", title: "Contact" },
+  { href: "tel:+2348078588804", title: "Contact" },
   { href: "/resume.pdf", title: "Resume", target: "_blank" },
   {
     href: "https://github.com/chloeselzing",
