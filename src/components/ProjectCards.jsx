@@ -34,7 +34,7 @@ const ProjectCards = ({ title, description, stacks, githubLink, liveLink }) => {
           </div>
           <div>
             <a href={liveLink} target="_blank" rel="noopener noreferrer">
-              <BsBoxArrowUpRight className="hidden lg:block md:block g:text-xl text-sm " />
+              <BsBoxArrowUpRight className=" lg:block md:block g:text-xl text-sm " />
             </a>
           </div>
         </div>
